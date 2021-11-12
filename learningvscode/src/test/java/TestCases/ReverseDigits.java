@@ -7,7 +7,7 @@ public class ReverseDigits{
     public static void main(String args[])
     {   
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter a Number :");
+        System.out.println("Enter the Number :");
         int num=sc.nextInt();
         int rem=0;
         int rev=0;

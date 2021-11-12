@@ -11,7 +11,7 @@ public static void main(String args[])
     int range=sc.nextInt();
     int first=0;
     int second=1;
-    System.out.print(first+" "+second+" ");
+    System.out.print(first+" "+second+"  ");
     for(int i=0;i<range;i++)
     {
         int next=first+second;
