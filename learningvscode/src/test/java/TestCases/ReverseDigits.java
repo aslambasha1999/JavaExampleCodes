@@ -12,12 +12,12 @@ public class ReverseDigits{
         int rem=0;
         int rev=0;
         int temp=num;
-        if(num<0)
+        if(num==0)
         {
             System.out.println("Enter valid Input");
         }
         else{
-            for(int i=0;i<=num;i++)
+            while(num!=0)
             {
                 
                 rem=num%10;
