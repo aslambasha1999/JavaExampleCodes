@@ -37,8 +37,14 @@ class Withdrawl extends Deposit
         System.out.println("Available Balence  : "+availableBalence );
         System.out.println("Enter the Withdrawl Amount: ");
         double withdrawAmt=sc.nextDouble();
+        if(withdrawAmt>availableBalence)
+        {
+            System.out.println("Insufficient Funds");
+        }
+        else{
         availableBalence-=withdrawAmt;
         System.out.println("The Available balance after Withdrawl :"+availableBalence);
+        }
     }
     public void balenceCheck()
     {
