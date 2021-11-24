@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch VehiclesInterface",
+            "request": "launch",
+            "mainClass": "Abstraction.VehiclesInterface",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch UserInterface",
+            "request": "launch",
+            "mainClass": "Abstraction.UserInterface",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch PageUser",
+            "request": "launch",
+            "mainClass": "Encapsulation.PageUser",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
