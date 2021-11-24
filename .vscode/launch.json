@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch VehiclesInterface",
+            "request": "launch",
+            "mainClass": "Abstraction.VehiclesInterface",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch UserInterface",
+            "request": "launch",
+            "mainClass": "Abstraction.UserInterface",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch PageUser",
+            "request": "launch",
+            "mainClass": "Encapsulation.PageUser",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorExamples",
+            "request": "launch",
+            "mainClass": "Methods.ConstructorExamples",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch QspidersLogin",
+            "request": "launch",
+            "mainClass": "Methods.QspidersLogin",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cust",
+            "request": "launch",
+            "mainClass": "OOPs.Cust",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstClass",
+            "request": "launch",
+            "mainClass": "OOPs.FirstClass",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondClass",
+            "request": "launch",
+            "mainClass": "OOPs.SecondClass",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "TestCases.ArmstrongNumber",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNumbers",
+            "request": "launch",
+            "mainClass": "TestCases.PrimeNumbers",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseDigits",
+            "request": "launch",
+            "mainClass": "TestCases.ReverseDigits",
+            "projectName": "learningvscode"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibanocciSeries",
+            "request": "launch",
+            "mainClass": "TestCases.fibanocciSeries",
+            "projectName": "learningvscode"
+        }
+    ]
+}
