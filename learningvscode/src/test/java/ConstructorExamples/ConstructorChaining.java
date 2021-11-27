@@ -40,7 +40,7 @@ public class ConstructorChaining {
     public static void main(String args[])
     {
         System.out.println("main methods start");
-        ConstructorChaining coc=new ConstructorChaining();
+        new ConstructorChaining();
         System.out.println("main method ends");
         
 
